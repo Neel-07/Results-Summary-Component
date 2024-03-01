@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-color: hsl(0, 0%, 100%);
+}
+
+main{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_container{
+    background-color:  hsl(241, 100%, 89%);
+    height:400px;
+    width:300px;
+    border-radius: 20px;
+}
