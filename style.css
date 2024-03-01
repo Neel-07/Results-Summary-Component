@@ -17,8 +17,34 @@ main{
 }
 
 .left_container{
-    background-color:  hsl(241, 100%, 89%);
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     height:400px;
     width:300px;
     border-radius: 20px;
+    z-index: 2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right_container{
+    margin-left: -20px;
+    width:315px;
+    height:400px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 10px 20px 4px hsl(221, 100%, 96%);
+    z-index:1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.result{
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
