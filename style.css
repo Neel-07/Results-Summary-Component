@@ -19,7 +19,7 @@ main{
 .left_container{
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     height:400px;
-    width:300px;
+    width:280px;
     border-radius: 20px;
     z-index: 2;
     display:flex;
@@ -46,10 +46,12 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .result p:first-child{
-    margin-top: -10px;
+    /* margin-top: -10px; */
+    padding-top:20px;
     font-size: 50px;
     color: azure;
     font-weight: 800;
@@ -58,7 +60,7 @@ main{
 }
 .result p:last-child{
     font-size: 14px;
-    margin-top:-5px;
+    margin-top:-15px;
     padding-top:0;
     color: rgba(240, 255, 255, 0.87);
     font-weight: 500;
@@ -66,16 +68,17 @@ main{
 
 
 #review{
+    margin-top:15px;
     color:azure;
     font-size: 25px;
     font-weight: 700;
 }
 
 .left_container p:last-child{
-    padding:10px 20px;
-    color: rgba(240, 255, 255, 0.495);
+    padding:5px 20px;
+    color: rgba(240, 255, 255, 0.587);
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
 }
 .right_container{
     margin-left: -20px;
