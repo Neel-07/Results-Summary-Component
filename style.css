@@ -87,7 +87,8 @@ main{
     background-color: hsl(0, 0%, 100%);
     box-shadow: 10px 10px 20px 4px hsl(221, 100%, 96%);
     z-index:1;
-    padding:50px;
+    padding-left:50px;
+    padding-right:30px;
     padding-top:18px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -99,18 +100,30 @@ main{
 }
 
 .right_container p{
-     color: rgba(0, 0, 0, 0.813);
+     color: hsl(224, 30%, 27%);
      font-size: 20px;
      font-weight: 700;
      padding-top:10px;
-    
+     padding-bottom:10px;
 }
 
 .right_container button{
+    padding-top:20px;
     width:100%;
     padding:10px;
     border-radius:10px;
     border:none;
 }
+
+#continue{
+    background-color: hsl(224, 30%, 27%);
+    color: azure;
+    font-weight: 700;
+    text-align: center;
+    border-radius:20px;
+    padding:12px 0px;
+}
+
+
 
 /* font-family: "Hanken Grotesk", sans-serif; */
