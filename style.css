@@ -96,7 +96,7 @@ main{
     flex-direction: column;
     align-items: flex-start;
     font-family: "Hanken Grotesk", sans-serif;
-    gap:10px;
+    gap:15px;
 }
 
 .right_container p{
@@ -111,19 +111,53 @@ main{
     padding-top:20px;
     width:100%;
     padding:10px;
-    border-radius:10px;
+    border-radius:5px;
     border:none;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #continue{
     background-color: hsl(224, 30%, 27%);
     color: azure;
     font-weight: 700;
+    display:block;
     text-align: center;
     border-radius:20px;
     padding:12px 0px;
+    margin-top: 20px;
 }
 
+#reaction{
+    background-color: hsla(0, 82%, 87%, 0.132);
+    color:hsl(0, 100%, 67%);
+    font-weight: 600;
+}
+#memory{
+    background-color: hsla(40, 80%, 90%, 0.313);
+    color:hsl(39, 100%, 56%);
+    font-weight: 600;
+}
+#verbal{
+    background-color: hsla(165, 80%, 90%, 0.352);
+    color:hsl(166, 100%, 37%);
+    font-weight: 600;
+}
+#visual{
+    background-color: hsla(234, 80%, 90%, 0.237);
+    color:hsl(234, 85%, 45%);
+    font-weight: 600;
+}
+.rate{
+    font-weight: 700;
+    padding-left:80px;
+    color:hsl(224, 30%, 27%);
+}
+
+.outof{
+    color:hsla(224, 30%, 27%, 0.329);
+}
 
 
 /* font-family: "Hanken Grotesk", sans-serif; */
