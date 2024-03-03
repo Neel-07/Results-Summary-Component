@@ -82,7 +82,7 @@ main{
 }
 .right_container{
     margin-left: -20px;
-    width:315px;
+    width:310px;
     height:400px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 10px 10px 20px 4px hsl(221, 100%, 96%);
@@ -129,33 +129,68 @@ main{
     margin-top: 20px;
 }
 
+#continue:hover{
+    cursor:pointer;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.tag{
+    padding-left:10px;
+}
+
 #reaction{
     background-color: hsla(0, 82%, 87%, 0.132);
     color:hsl(0, 100%, 67%);
     font-weight: 600;
+}
+#reaction  .rate{
+    padding-right:5px;
+}
+#reaction .tag{
+    padding-left:3px;
 }
 #memory{
     background-color: hsla(40, 80%, 90%, 0.313);
     color:hsl(39, 100%, 56%);
     font-weight: 600;
 }
+#memory  .rate{
+    padding-right:2px;
+}
+#memory .tag{
+    padding-left:3px;
+}
 #verbal{
     background-color: hsla(165, 80%, 90%, 0.352);
     color:hsl(166, 100%, 37%);
     font-weight: 600;
+}
+#verbal .rate{
+    padding-left:5rem;
+}
+#verbal .tag{
+    padding-left:3px;
 }
 #visual{
     background-color: hsla(234, 80%, 90%, 0.237);
     color:hsl(234, 85%, 45%);
     font-weight: 600;
 }
+#visual .rate{
+    padding-left:5rem;
+}
+#visual .tag{
+    padding-left:3px;
+}
+
 .rate{
     font-weight: 700;
-    padding-left:80px;
+    padding-left:70px;
     color:hsl(224, 30%, 27%);
 }
 
 .outof{
+    font-weight: 700;
     color:hsla(224, 30%, 27%, 0.329);
 }
 
